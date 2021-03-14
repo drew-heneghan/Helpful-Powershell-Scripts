@@ -2,7 +2,7 @@
 Powershell scripts that allow me to focus more on the things I enjoy 
 
 <h3>Vuln Formatter</h3>
-<p>Vuln Formatter reads in a CSV export containing vulnerabiltiy data from a scanning tool and outputs each vulnerability as outlined below.  The script will create one text document per component identified by the scanner.  Vulnerabilities are split into separate sections by severity.  Based on the output from the tool used currently, there was extra looping required because I did not want to code more VBA to remove specific duplicate values.  The end goal is to find a way to create these vulns automaically within the script itself rather than having to copy/paste, but I'm thrilled at what I've got up to this point as it already saves me a lot of time with removing the formatting piece.  I will certainly update this as I progress in it's development!</p>
+<p>Vuln Formatter reads in a CSV file, which is export containing vulnerabiltiy data from a scanning tool, and outputs each vulnerability as outlined below.  The script will create one text document per component identified by the scanner.  Vulnerabilities are split into separate sections by severity.  Based on the output from the tool used currently, there was extra looping required because it was more overhead to do so in VBA to remove specific duplicate values versus within the script itself.  The end goal is to find a way to create these vulns within the script using an API rather than having to copy/paste, but I'm thrilled at what I've got up to this point.  I will certainly update this as I progress in it's development!</p>
 <h4>Format of vulns</h4>
 <p>Vulnerabilty Identifier : Vulnerabiltiy Description. Remediation Version</p>
 
